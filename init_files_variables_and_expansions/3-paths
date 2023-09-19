@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "123\n"
+echo $PATH | tr ':' '\n' | grep / | wc -l
